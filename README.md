@@ -1,7 +1,6 @@
 # PSP-Entry-Types
 
-Mini Library to keep track of all known PSP Entry types
-
+Mini Library to keep track of all known PSP Entry types. Definitions are stored in `types.csv`
 
 ## Use in Go
 
