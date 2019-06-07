@@ -21,3 +21,14 @@ func main(){
 	}
 }
 ```
+
+## Use in Python
+
+`pip3 install git+https://github.com/Mimoja/PSP-Entry-Types.git@master`
+
+then
+
+```python
+import pspEntries
+pspEntries.getEntries()
+```

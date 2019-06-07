@@ -2,11 +2,9 @@
 
 import csv
 import collections
+import pspEntries
 
-# sets DIRECTORY_ENTRY_TYPES
-exec(open("./pspEntries.py").read())
-
-
+entries = pspEntries.getEntries()
 f = open('types.csv', 'w')
 
 with f:
@@ -14,7 +12,7 @@ with f:
     writer = csv.DictWriter(f, fnames)
     writer.writeheader()
     
-    ordered = collections.OrderedDict(sorted(DIRECTORY_ENTRY_TYPES.items()))
+    ordered = collections.OrderedDict(sorted(entries.items()))
     for key, value in ordered.items():
         id = "{0:#0{1}x}".format(key,5)
         name = value['Name']
