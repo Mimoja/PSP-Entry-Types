@@ -1,10 +1,13 @@
 #!python3
 
-# importing csv module 
-import csv 
-  
-# csv file name 
-filename = "types.csv"
+# importing csv module
+import csv
+import os
+from pathlib import PurePath, Path
+
+# csv file nam
+p = PurePath(__file__)
+filename = os.path.join(p.parent, "types.csv")
 
 
 f = open(filename, 'r')
