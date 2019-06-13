@@ -29,6 +29,8 @@ func Types() []AMDPSPDirectoryEntryType {
 
     csvFile, _ := os.Open(fpath)
     reader := csv.NewReader(bufio.NewReader(csvFile))
+	reader.Read()
+
     var entryTypes []AMDPSPDirectoryEntryType
     for {
         line, error := reader.Read()
