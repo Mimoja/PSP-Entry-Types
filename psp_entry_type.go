@@ -3,8 +3,6 @@ package pspentrytype
 import (
 	"bufio"
 	"encoding/csv"
-	"encoding/json"
-	"fmt"
 	"io"
 	"log"
 	"os"

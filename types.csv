@@ -1,30 +1,30 @@
 ID,Name,ProposedName,Comment
-0x000,AMD_PUBLIC_KEY,,AMDPublicKey
-0x001,PSP_FW_BOOT_LOADER,,PSPBootLoader
-0x002,PSP_FW_TRUSTED_OS,,PSPMainFirmware
-0x003,PSP_FW_RECOVERY_BOOT_LOADER,,PSPRecoveryBootloaderandFirmware
-0x004,PSP_NV_DATA,,PSPData
-0x005,BIOS_PUBLIC_KEY,,BIOSPublicKey
-0x006,BIOS_RTM_FIRMWARE,,BIOSRTMcode(PEI)volume
-0x007,BIOS_RTM_SIGNATURE,,SignedBIOSRTMHash
-0x008,SMU_OFFCHIP_FW,,PrimarySMUimage
-0x009,AMD_SEC_DBG_PUBLIC_KEY,,SecureUnlockPublicKey
-0x00a,OEM_PSP_FW_PUBLIC_KEY,,OptionalOEMPublicKey
-0x00b,AMD_SOFT_FUSE_CHAIN_01,,64bitPSPSoftFuseChain
-0x00c,PSP_BOOT_TIME_TRUSTLETS,,TrustletsloadedatBoot
-0x00d,PSP_BOOT_TIME_TRUSTLETS_KEY,,KeythatsignedtheBoot-Trustlets
-0x010,PSP_AGESA_RESUME_FW,,PSPAgesa-Resume-Firmware
-0x012,SMU_OFF_CHIP_FW_2,,SecondarySMUimage
+0x000,AMD_PUBLIC_KEY,,AMD PublicKey
+0x001,PSP_FW_BOOT_LOADER,,PSP BootLoader
+0x002,PSP_FW_TRUSTED_OS,,PSP Main Firmware
+0x003,PSP_FW_RECOVERY_BOOT_LOADER,,PSP Recovery Bootloader and Firmware
+0x004,PSP_NV_DATA,,PSP Data
+0x005,BIOS_PUBLIC_KEY,,BIOS Public Key
+0x006,BIOS_RTM_FIRMWARE,,BIOS RTM Code (PEI)Volume
+0x007,BIOS_RTM_SIGNATURE,,Signed BIOS RTM Hash
+0x008,SMU_OFFCHIP_FW,,Primary SMU Image
+0x009,AMD_SEC_DBG_PUBLIC_KEY,,Secure Unlock Public Key
+0x00a,OEM_PSP_FW_PUBLIC_KEY,,Optional OEM Public Key
+0x00b,AMD_SOFT_FUSE_CHAIN_01,,64bit PSP Soft Fuse Chain
+0x00c,PSP_BOOT_TIME_TRUSTLETS,,Trustlets loaded at Boot
+0x00d,PSP_BOOT_TIME_TRUSTLETS_KEY,,Key that signed the Boot-Trustlets
+0x010,PSP_AGESA_RESUME_FW,,PSP Agesa-Resume-Firmware
+0x012,SMU_OFF_CHIP_FW_2,,Secondary SMU Image
 0x013,,,
-0x014,,PSP_MCLF_TRUSTLETS,verysimiliarto~PspTrustlets.bin~incorebootblobs
-0x01a,PSP_S3_NV_DATA,,S3DataBlob
+0x014,,PSP_MCLF_TRUSTLETS,very similiar to ~PspTrustlets.bin~ in coreboot/blobs
+0x01a,PSP_S3_NV_DATA,,S3 Data Blob
 0x021,,,
 0x022,,,
 0x028,,,
 0x029,,,
 0x02d,,,
 0x030,,,
-0x031,,,a_lot_ofstringsandalsosomeARMcode
+0x031,,,a _lot_ of strings and also some ARM code
 0x032,,,
 0x033,,,
 0x034,,,
