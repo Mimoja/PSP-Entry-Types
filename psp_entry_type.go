@@ -47,8 +47,6 @@ func Types() []AMDPSPDirectoryEntryType {
             Comment: line[3],
         })
     }
-    peopleJson, _ := json.Marshal(entryTypes)
-    fmt.Println(string(peopleJson))
     return entryTypes
 }
 
