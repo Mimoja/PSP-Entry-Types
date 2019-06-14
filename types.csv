@@ -16,7 +16,7 @@ ID,Name,ProposedName,Comment
 0x010,PSP_AGESA_RESUME_FW,,PSP Agesa-Resume-Firmware
 0x012,SMU_OFF_CHIP_FW_2,,Secondary SMU Image
 0x013,,,
-0x014,,PSP_MCLF_TRUSTLETS,very similiar to ~PspTrustlets.bin~ in coreboot/blobs
+0x014,,PSP_MCLF_TRUSTLETS,Unknown Trustlets
 0x01a,PSP_S3_NV_DATA,,S3 Data Blob
 0x021,,,
 0x022,,,
@@ -24,7 +24,7 @@ ID,Name,ProposedName,Comment
 0x029,,,
 0x02d,,,
 0x030,,,
-0x031,,,a _lot_ of strings and also some ARM code
+0x031,,,
 0x032,,,
 0x033,,,
 0x034,,,
@@ -34,20 +34,20 @@ ID,Name,ProposedName,Comment
 0x038,,PSP_ENCRYPTED_NV_DATA,
 0x039,,SEV_APP,
 0x040,,PL2_SECONDARY_DIRECTORY,
-0x05f,FW_PSP_SMUSCS,,Software Configuration Settings
+0x05f,FW_PSP_SMUSCS,,Primary Software Configuration Settings
 0x060,FW_IMC,,IMC Firmware
 0x061,FW_GEC,,GEC Firmware
 0x062,FW_XHCI,,XHCI Firmware
 0x063,FW_INVALID,,
 0x070,,BL2_SECONDARY_DIRECTORY,
 0x108,PSP_SMU_FN_FIRMWARE,,
-0x112,,SMU_OFF_CHIP_FW_3,seems to be a tertiary SMUimage
+0x112,,SMU_OFF_CHIP_FW_3,Tertiary SMUimage
 0x118,PSP_SMU_FN_FIRMWARE2,,
 0x124,,,
 0x125,,,
-0x15f,,FW_PSP_SMUSCS_2,seems to be a secondary FW_PSP_SMUSCS
+0x15f,,FW_PSP_SMUSCS_2,Secondary Software Configuration Settings
 0x208,,,
 0x212,,,
 0x224,,,Appears to be linked to 124 125 and 225
 0x225,,,
-0x30062,,,Maybe UEFI Image
+0x30062,,,UEFI PEI Volume
