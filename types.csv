@@ -20,6 +20,7 @@ ID,Name,ProposedName,Comment
 0x01a,PSP_S3_NV_DATA,,S3 Data Blob
 0x021,,,
 0x022,,,
+0x024,,,
 0x028,,,
 0x029,,,
 0x02d,,,
@@ -39,6 +40,8 @@ ID,Name,ProposedName,Comment
 0x061,FW_GEC,,GEC Firmware
 0x062,FW_XHCI,,XHCI Firmware
 0x063,FW_INVALID,,
+0x066,,,
+0x067,,,
 0x070,,BL2_SECONDARY_DIRECTORY,
 0x108,PSP_SMU_FN_FIRMWARE,,
 0x112,,SMU_OFF_CHIP_FW_3,Tertiary SMUimage
@@ -51,3 +54,13 @@ ID,Name,ProposedName,Comment
 0x224,,,Appears to be linked to 124 125 and 225
 0x225,,,
 0x30062,,,UEFI PEI Volume
+0x00000068,,,
+0x00100060,,,
+0x00100064,,,
+0x00100065,,,
+0x00100066,,,
+0x00100068,,,
+0x00200066,,,
+0x00300066,,,
+0x00400064,,,
+0x00400065,,,
