@@ -18,6 +18,7 @@ ID,Name,ProposedName,Comment
 0x013,,,
 0x014,,PSP_MCLF_TRUSTLETS,Unknown Trustlets
 0x01a,PSP_S3_NV_DATA,,S3 Data Blob
+0x020,,,
 0x021,,,
 0x022,,,
 0x024,,,
@@ -60,7 +61,11 @@ ID,Name,ProposedName,Comment
 0x00100065,,,
 0x00100066,,,
 0x00100068,,,
+0x00200064,,,
+0x00200065,,,
 0x00200066,,,
+0x00300064,,,
+0x00300065,,,
 0x00300066,,,
 0x00400064,,,
 0x00400065,,,
