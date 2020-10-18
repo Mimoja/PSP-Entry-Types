@@ -55,6 +55,7 @@ ID,Name,ProposedName,Comment
 0x224,,,Appears to be linked to 124 125 and 225
 0x225,,,
 0x30062,,,UEFI PEI Volume
+0x10062,,,UEFI Image
 0x00000068,,,
 0x00100060,,,
 0x00100064,,,
